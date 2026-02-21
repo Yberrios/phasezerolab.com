@@ -31,36 +31,9 @@
 
     <section class="signup">
       <div class="container">
-        <h2 class="signup__heading">Be the first to know</h2>
-        <p class="signup__subtext">Leave your email and we'll notify you when we launch.</p>
-        <!--
-          FORMSPREE INTEGRATION
-          Replace the URL below with your Formspree form endpoint.
-          1. Create a free account at https://formspree.io
-          2. Create a new form
-          3. Copy the endpoint URL (e.g. https://formspree.io/f/xyzabcde)
-          4. Replace the action attribute below
-        -->
-        <form
-          id="signup-form"
-          class="signup__form"
-          action="https://formspree.io/f/YOUR_FORM_ID"
-          method="POST"
-        >
-          <div class="signup__input-group">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="signup__input"
-              placeholder="you@company.com"
-              required
-              autocomplete="email"
-            >
-            <button type="submit" class="signup__button">Notify Me</button>
-          </div>
-          <p class="signup__feedback" id="form-feedback" role="status" aria-live="polite"></p>
-        </form>
+        <h2 class="signup__heading">Get in touch</h2>
+        <p class="signup__subtext">Interested in learning more? Reach out and we'll be in touch.</p>
+        <a href="mailto:info@phasezerolab.com" class="signup__button signup__button--link">Email Us</a>
       </div>
     </section>
   </main>

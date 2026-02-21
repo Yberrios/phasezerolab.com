@@ -161,6 +161,11 @@ main {
   transition: background-color 0.2s, opacity 0.2s;
 }
 
+.signup__button--link {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .signup__button:hover {
   background-color: #1a1a36;
 }
